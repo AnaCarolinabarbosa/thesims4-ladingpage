@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  max-height: 650px;
+  max-width: 1280px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 110px;
+}
+
+.redes-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo-principal {
+  max-width: 196px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 140px 100px;
+}
+
+.imagem-principal {
+  margin: auto 110px 90px;
+}
+
+.descricao-principal {
+  width: 497px;
+}
+
+.jogue {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #2BA400;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+.trailer {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-weight: 600;
+  border: 1px solid #2BA400;
+  border-radius: 4px;
+}
+
+.botao-principal {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 1250px) {
+
+  .principal {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    width: 100%;
+  }
+
+  .imagem-principal {
+    margin: auto;
+    width: 350px;
+  }
+
+  .flex {
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) { 
+
+  .principal {
+    margin: auto;
+    width: 100%;
+  }
+
+
+  .logo-menu {
+    margin: auto;
+  }
+
+  .redes-menu {
+    display: none;
+  }
+
+}
